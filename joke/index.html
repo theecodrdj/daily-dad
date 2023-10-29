@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <!-- ensure setup for mobile responsiveness -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <title>Daily Dad | Dad Joke</title>
+
+        <!-- meta data for page including title, description, keywords, robots, lang, and author -->  
+        <meta name="title" content="Daily Dad | Dad Joke">
+        <meta name="description" content="Page and section of Daily Dad Online dedicated to the always corny, yet still hilarious, Dad joke of the day. Check daily, as it always is funny!">
+        <meta name="keywords" content="Daily, Dad, interactive, website, joke, jokes, corny, punchline, laugh, ha, hilarious">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+        <meta name="author" content="thee cod*r dj"><!-- end site meta data -->
+
+        <!-- import google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Alef&family=Bungee&family=Tilt+Neon&family=Unbounded:wght@500&family=Rubik+Dirt&family=Slackey&display=swap" rel="stylesheet" />
+        <!-- end import google fonts -->
+
+        <!-- declare favicon files -->
+        <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png" />
+        <link rel="manifest" href="../favicon/site.webmanifest" />
+        <link rel="shortcut icon" href="../favicon/favicon.ico" />
+        <meta name="msapplication-TileColor" content="#ffd766" />
+        <meta name="msapplication-config" content="../favicon/browserconfig.xml" />
+        <meta name="theme-color" content="#ffd766" />
+        <!-- end favicon declarations -->
+
+        <!-- import vendor css stylesheets -->
+        <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+        <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+        <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+        <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+        <!-- end vendor css -->
+
+        <!-- import custom css stylesheet -->
+        <link href="../assets/css/tcd.min.css" rel="stylesheet" />
+        <!-- end custom css stylesheet -->
+
+        <!-- import bootstrap and jquery js -->
+        <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/vendor/jquery/jquery.min.js"></script>
+        <!-- end bootstrap and jquery import -->
+    </head>
+
+    <body>
+        <!-- #header -->
+        <header id="header" class="header fixed-top">
+            <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+                <a href="../" class="logo d-flex align-items-center">
+                    <img src="../assets/img/logos/dailydad-logo.png" alt="Logo for Daily Dad with transparent background" />
+                    <span class="dadfont">Daily Dad</span>
+                </a>
+
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a class="nav-link" href="../">Home</a></li>
+                        <li><a class="nav-link active" href="../joke/">Joke</a></li>
+                        <li><a class="nav-link" href="../votd/">Vocab</a></li>
+                        <li><a class="nav-link" href="../thisday/">History</a></li>
+                        <li><a class="nav-link" href="../facts/">Facts</a></li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+                <!-- end #navbar -->
+            </div>
+            <!-- end container -->
+        </header>
+        <!-- end #header -->
+
+        <!-- #hero -->
+        <section id="hero" class="hero d-flex align-items-center">
+            <div class="container">
+                                <div class="row">
+                    <div class="col-12 d-flex justify-content-center align-items-center mt-2">
+                        <p class="update">Updated 10/29/23 7:10 AM</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center mt-1">
+                        <h1 data-aos="fade-up">"Dad" Joke</h1>
+                        <h2 data-aos="fade-up" data-aos-delay="400">They may be corny, but man are they funny.</h2>
+                    </div>
+                    <!-- end col -->
+                    <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+                        <img src="../assets/img/dailydad-joke.jpeg" class="img-fluid" alt="Daily Dad dad joke background" />
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </section>
+        <!-- end #hero -->
+
+        <main id="main">
+            <section id="content" class="content d-flex align-items-center">
+                <div class="container">
+                    <div class="row mt-3">
+                        <div class="col-lg-6">
+                            <h1 data-aos="fade-up">"Dad" Joke Setup</h1>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                    <div class="row align-items-center justify-content-around mt-3">
+                        <div class="col-12">
+                            <button type="button" id="btn-joke" class="btn btn-tcd btn-joke">Reveal</button>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                    <div class="row mt-2 align-items-center justify-content-center">
+                        <div class="col-12">
+                            <p id="joke" class="joke hidden">I don't trust stairs...</p>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                    <div class="row mt-3">
+                        <div class="col-lg-6">
+                            <h1 data-aos="fade-up">"Dad" Joke Punchline</h1>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- End row -->
+                    <div class="row align-items-center justify-content-around mt-3">
+                        <div class="col-12">
+                            <button type="button" id="btn-punchline" class="btn btn-tcdAlt btn-punchline">Reveal</button>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                    <div class="row mt-2 align-items-center justify-content-center">
+                        <div class="col-12">
+                            <p id="punchline" class="punchline hidden">...they're always "up" to something</p>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </section>
+            <!-- end #content -->
+        </main>
+        <!-- end #main -->
+
+        <!-- #footer -->
+        <footer id="footer" class="footer">
+            <div class="footer-top">
+                <div class="container d-flex align-items-center justify-content-center">
+                    <div class="page">
+                        <a href="../" class="logo">
+                            <img src="../assets/img/logos/dailydad-logo.png" alt="Daily Dad logo with transparent background" />
+                            <span class="dadfont">Daily Dad</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- end container -->
+            </div>
+
+            <div class="container d-flex align-items-center justify-content-center">
+                <div class="copyright">
+                    &copy; Copyright 2023
+                    <strong>
+                        <a href="https://theecodrdj.online"><span class="tcd">THEE COD*R DJ</span></a>
+                    </strong>
+                    . All Rights Reserved
+                </div>
+            </div>
+            <!-- end container -->
+        </footer>
+        <!-- end #footer -->
+
+        <!-- import vendor js files -->
+        <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="../assets/vendor/aos/aos.js"></script>
+        <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <!-- end vendor js files -->
+
+        <!-- import custom js files -->
+        <script src="../assets/js/tcd.min.js"></script>
+        <script src="../assets/js/tcd_buttons.min.js"></script>
+        <!-- end custom js files -->
+    </body>
+</html>
